@@ -1,3 +1,21 @@
+# BIOMD0000000282: chance
+
+## Installation
+
+Download this repository, and install with distutils
+
+`python setup.py install`
+
+Or, install using pip
+
+`pip install git+https://github.com/biomodels/BIOMD0000000282.git`
+
+To install a specific version (in this example, from the 2014-09-16 BioModels release)
+
+`pip install git+https://github.com/biomodels/BIOMD0000000282.git@20140916`
+
+
+# Model Notes
 
 
 This model is described in the article:  
@@ -25,4 +43,5 @@ concentration of a is set to 1 and the value of k4 just adapted so that the
 product equals the values given for k4*a in the article. The specific
 parameter values are taken from Fig 3. The graphs do not exactly match those
 in the paper, this _may_ be due to the different simulators used.
+
 
